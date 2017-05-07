@@ -1,0 +1,38 @@
+{
+  "name": "visitors-wallet",
+  "version": "1.0.0",
+  "description": "Visitors Wallet Service",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:breaking-bug/visitors-wallet.git"
+  },
+  "keywords": [
+    "passbook",
+    "wallet",
+    "bluemix",
+    "visitors",
+    "ios"
+  ],
+  "author": "Lucas Costa Oliveira",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cfenv": "^1.0.3",
+    "cloudant": "^1.4.1",
+    "cors": "^2.7.1",
+    "deep-equal": "^1.0.1",
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "lodash": "^4.12.0",
+    "moment": "^2.13.0",
+    "node-uuid": "^1.4.7",
+    "passbook.js": "git+https://github.com/lucasulcas/passbook.js.git",
+    "q": "^1.4.1",
+    "request": "^2.72.0"
+  }
+}

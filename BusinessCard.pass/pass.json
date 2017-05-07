@@ -1,0 +1,61 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.cassiorossi.businesscard",
+  "serialNumber" : "8j23fm4",
+  "teamIdentifier" : "6Y8FN886HF",
+  "barcode" : {
+    "message" : "https://kazziosoftware.websiteseguro.com/businesscard.php",
+    "format" : "PKBarcodeFormatQR",
+    "messageEncoding" : "iso-8859-1",
+    "altText" : "Your Visit QR Code"
+  },
+  "organizationName" : "IBM Visitors",
+  "description" : "IBM Visitors Wallet Card",
+  "logoText" : "IBM Visitors",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(207, 64, 48)",
+  "icon" : "BusinessCard.pass/icon.png",
+  "logo" : "BusinessCard.pass/logo.png",
+  "icon2x" : "BusinessCard.pass/icon@2x.png",
+  "logo2x" : "BusinessCard.pass/logo@2x.png",
+  "generic" : {
+    "primaryFields" : [
+      {
+        "key" : "name",
+        "value" : "Cassio Rossi",
+		"label" : "NAME"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "title",
+        "label" : "Company",
+        "value" : "Bradesco"
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "email",
+        "label" : "E-MAIL/FACETIME",
+        "value" : "cassio.rossi@me.com"
+      },
+      {
+        "key" : "whatsapp",
+        "label" : "WHATSAPP",
+        "value" : "+55 (11) 99659-5052"
+      }
+    ],
+    "backFields" : [
+      {
+        "key" : "name",
+        "value" : "Site",
+        "label" : "BMM - Hortolândia"
+      },
+      {
+        "key" : "name",
+        "value" : "Site",
+        "label" : "BMM - Hortolândia"
+      }
+    ]
+  }
+}
